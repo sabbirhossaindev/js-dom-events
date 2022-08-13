@@ -7,10 +7,48 @@
     <title>js dom events</title>
 </head>
 <body>
+
+    <!-- today note task.. 
+    1. onclick="console.log(9)";
+
+    2. <button onclick="makeRed()">Make rad</button>
+        function makeRed() {
+        document.body.style.backgroundColor = 'red';
+        }
+
+    3. <button id="make-blue">Make Blue</button>
+        const makeBlueButton = document.getElementById('make-blue');
+        makeBlueButton.onclick = makeBlue;
+        function makeBlue() {
+            document.body.style.backgroundColor = 'blue';
+        }
+    
+    4. <button id="make-purple">Make purple</button>
+        const makePurpleButton = document.getElementById('make-purple');
+        makePurpleButton.onclick = function makePurple() {
+            document.body.style.backgroundColor = 'purple';
+        }
+        
+    -->
     <!-- events handler explore -->
     <h1 onclick="console.log('I am clicked..')">I am learning dom events......</h1>
+    <!-- <h2 title="hello">Lorem, ipsum dolor sit</h2> -->
     <button onclick="console.log(9)">Click me</button>
     <button onclick="console.log(99)">Hire Me</button>
+    <br>
+    <br>
+    <button onclick="document.body.style.background = 'yellow'">Make yellow</button>
+    
+    <!-- function use kore onclick explore option 2.. -->
+    <button onclick="makeRed()">Make rad</button>
+
+    <!-- id use kore onclick explore option 3.. -->
+    <button id="make-blue">Make Blue</button>
+
+    
+    <!-- id use kore onclick explore option 3.. -->
+    <button id="make-purple">Make purple</button>
+
 
     <script src="js/events.js"></script>
 </body>
