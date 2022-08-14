@@ -14,9 +14,9 @@ function handlerOnClick(){
  });
 
 
- // option: 2 recap... IMpotant...
+ // option: 2 recap... IMPORTANT...
  /*
-  <p id="input-pre">Defulte input text..</p>
+  <p id="input-pre">Defolt input text..</p>
     <input id="input-field" type="text">
     <button id="btn-update">update</button>
 */
