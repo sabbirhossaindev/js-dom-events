@@ -1,5 +1,6 @@
 // option: 1....
 //<h3 id="handler-status">Default text</h3>
+// <button onclick="handlerOnClick()">Hello i am sabbir I am rearning js</button>
 function handlerOnClick(){
     const handlerStatus = document.getElementById('handler-status');
     handlerStatus.innerText = 'Handlerd by function on onclick attribute...';
